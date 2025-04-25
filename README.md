@@ -25,6 +25,7 @@ Copiar um diretório inteiro do servidor remoto para o seu sistema local: scp -r
 Especificar uma porta SSH diferente: scp -P 2222 arquivo.txt usuario@endereco_do_servidor:/caminho/no/servidor/
 
 
+NEW FILES
 
 
 
