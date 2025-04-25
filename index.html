@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio DevOps</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="terminal">
+    <div class="terminal-buttons">
+      <span class="btn red"></span>
+      <span class="btn yellow"></span>
+      <span class="btn green"></span>
+    </div>
+    
+    <div class="terminal-header">
+      <span class="user">devops@portfolio:~$</span> <span class="blinking">_</span>
+    </div>
+    
+    <div id="typing" class="typing"></div>
+
+    <div class="content" id="portfolio-content" style="display:none;">
+      <h1>Olá, me chamo <span class="highlight">Lorraine Gomes!</span></h1>
+      <p>Tenho 22 anos e minha área de atuação é Cloud Computing.</p>
+      <p>Trabalho com servidores AWS e Digital Ocean.</p>
+
+      <h2>💼 Projetos</h2>
+      <p>🐳 Campo de busca com Docker: <a href="https://precosnoparaguai.com.br/" target="_blank">Melisearch</a></p>
+      <p>Digital Ocean Server: <a href="https://wownessclub.com/" target="_blank">WownessClub</a></p>
+      <p>Grafana Server: <a href="https://lnkd.in/eyJY8Kc3" target="_blank">Grafana</a></p>
+
+      <h2>🛠️ Hard Skills</h2>
+      <ul>
+        <li>Linux / Shell Script</li>
+        <li>AWS (EC2, S3, Route53, IAM)</li>
+        <li>Docker & Docker Compose</li>
+        <li>Monitoramento com Grafana e Zabbix</li>
+        <li>Git / GitHub / GitLab CI</li>
+        <li>Spring Boot e PostgreSQL</li>
+        <li>Infraestrutura como Código (IaC)</li>
+      </ul>
+
+      <h2>💡 Soft Skills</h2>
+      <ul>
+        <li>Comunicação clara</li>
+        <li>Organização e responsabilidade</li>
+        <li>Trabalho em equipe</li>
+        <li>Aprendizado contínuo</li>
+        <li>Resolução de problemas</li>
+      </ul>
+
+      <h2>📫 Contato</h2>
+      <p>Email: lorrainegomescamargo@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/LorraineGomes" target="_blank">LorraineGomes</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/lorraine-gomes-24a084336/" target="_blank">Lorraine Gomes</a></p>
+
+      <h2>🏅 Certificações</h2>
+      <div class="carousel-cert">
+        <div class="carousel-track" id="carousel-track">
+          <img src="aws.png" alt="AWS CLF-C01" class="cert-badge" />
+          <img src="certificado_page_1.jpg" alt="Certificado Linux Onboarding" class="cert-badge" />
+          <img src="cert_linux2_page_1.jpg" alt="Certificado Arquitetura de Computadores" class="cert-badge" />
+          <img src="jenkins2.png" alt="jenkins2" class="cert-badge" />
+          <img src="image.png" alt="image" class="cert-badge" />
+          <img src="TDC.png" alt="TDC" class="cert-badge" />
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image" />
+        <div class="modal-nav">
+          <span class="prev">&#10094;</span>
+          <span class="next">&#10095;</span>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
